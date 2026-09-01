@@ -1,8 +1,10 @@
-let Pseudo = "Shadowx";
-let Niveau = 12;
-let Age = 21;
-let Score = 4580;
-let Pays = "Maroc";
+const prompt = require("prompt-sync")();
+
+let Pseudo =  prompt("Pseudo : ");
+let Niveau =  prompt("Niveau : ");
+let Age = prompt("Âge : ");
+let Score = prompt("Score : ");
+let Pays = prompt("Pays : ");
 
 console.log("Pseudo : ", Pseudo);
 console.log("Niveau : ", Niveau);
