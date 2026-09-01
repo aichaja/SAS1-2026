@@ -1,7 +1,6 @@
 const prompt = require("prompt-sync")();
 
 let min = prompt("Distance : ")
-
 if (min < 60){
     console.log("Catégorie : Court métrage")
 }
