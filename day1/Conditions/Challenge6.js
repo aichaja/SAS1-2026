@@ -22,6 +22,6 @@ switch(choix){
         break;
     default:
         console.log("Choix invalide.");
-        break;
+        
 
 }
